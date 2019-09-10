@@ -448,27 +448,34 @@ pre {
   margin: 20px auto 0;
 }
 .form input, select{
+  height: 40px;
+  background-color:  #e6eef7;
   border: none;
-  border-bottom: 1px solid ;
 }
 .form input, select{
   margin-bottom: 10px;
+  color: grey;
+  padding-left: 10px;
 }
 .form label{
   margin-bottom:0;
 }
 .form textarea{
-  margin-bottom:10px;
+  border: none;
+  margin-bottom: 10px;
   height: 200px;
+  background-color: #e6eef7;
+  padding-left: 10px;
 }
 .form input[type=submit]{
   background-color: #fd7e14;
   color: white;
-  border: none;
   border-radius: 25px;
+  margin-top: 10px;
 }
 .form input[type=submit]:hover{
-  background-color: #007bff;}
+  background-color: #007bff;
+}
 
 .pre-scrollable {
   max-height: 340px;
